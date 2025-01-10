@@ -1,3 +1,4 @@
-mkdir backup
-cp *.txt backup/
-echo "La sauvegarde a été effectuée."
+touch sortie.txt
+ls > sortie.txt
+echo "Ceci est une  redirection." >> sortie.txt
+cat sortie.txt
